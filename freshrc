@@ -1,0 +1,48 @@
+# freshshell.com
+# See http://freshshell.com/readme for documentation.
+
+# handles updating fresh
+fresh freshshell/fresh bin/fresh --bin
+
+## Local Files
+
+# links your local ~/.dotfiles/git/gitconfig to ~/.gitconfig (you can change your local directory by setting $FRESH_LOCAL)
+fresh git/gitconfig --file
+fresh git/gitignore --file
+
+## Shell files
+
+fresh shell/aliases/editor.sh
+fresh shell/zsh/aliases.zsh
+#fresh twe4ked/dotfiles shell/aliases/git.sh
+#fresh foobacca/dotfiles bash/completion
+
+## Bin Files
+
+# fresh jasoncodes/dotfiles bin/gemdiff --bin=~/bin/gem-diff
+# fresh holman/dotfiles bin/e --bin=~/bin/e
+# fresh twe4ked/dotfiles bin/build_status --bin
+# fresh pengwynn/dotfiles bin/gxpr --bin
+# fresh twe4ked/dotfiles bin/add-keys --bin
+# fresh twe4ked/catacomb bin/catacomb --bin
+# fresh pengwynn/dotfiles bin/git-ci --bin
+# fresh pengwynn/dotfiles bin/git-go --bin
+# fresh pengwynn/dotfiles bin/termcolors --bin
+# fresh jasoncodes/dotfiles bin/timein --bin
+# fresh alrra/dotfiles bin/httpcompression --bin
+
+## Config Files
+
+fresh vim/vimrc --file
+fresh shell/zsh/zshrc --file
+# fresh jasoncodes/dotfiles config/inputrc --file
+# fresh jasoncodes/dotfiles config/ackrc --file
+fresh osx/osx --file
+
+## Gitflow
+
+fresh bobthecow/git-flow-completion git-flow-completion.zsh
+# fresh jasoncodes/dotfiles config/gitconfig --file
+# fresh pengwynn/dotfiles bin/git-pr --bin
+# fresh twe4ked/dotfiles config/pryrc --file
+# fresh jasoncodes/dotfiles config/gemrc --file
