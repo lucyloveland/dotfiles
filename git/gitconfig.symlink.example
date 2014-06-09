@@ -22,6 +22,8 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+[rebase]
+        autosquash = true
 [apply]
         whitespace = nowarn
 [mergetool]

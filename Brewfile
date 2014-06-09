@@ -43,11 +43,14 @@ install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install ack
+install gawk
 install hashpump
+install htop
 install hub
 install lynx
 install nmap
 install node # This installs `npm` too using the recommended installation method
+install docker
 install p7zip
 install pigz
 install pv

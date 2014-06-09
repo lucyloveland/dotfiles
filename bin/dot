@@ -2,12 +2,14 @@
 #
 # dot
 #
-# `dot` handles installation, updates, things like that. Run it periodically
+# `dot` handles updates things like that. Run it periodically
 # to make sure you're on the latest and greatest.
-export ZSHDOT=$HOME/.dotfiles
+export DOT="$HOME/.dotfiles"
 
-# Install freshshell
-$ZSHDOT/freshshell/install.sh
+# Update freshshell and freshen sources
+fresh update
 
-# Upgrade homebrew and Install homebrew packages
-$ZSHDOT/homebrew/install.sh
+# Update homebrew and Install homebrew packages
+echo "Updating homebrew and Installing homebrew packages"
+brew bundle $DOT/Brewfile 
+brew update && brew cleanup && brew upgrade

@@ -1,15 +1,11 @@
-# grc overides for ls
-#   Made possible through contributions from generous benefactors like
-#   `brew install coreutils`
-if $(gls &>/dev/null)
-then
-  alias ls="gls -F --color"
-  alias l="gls -lAh --color"
-  alias ll="gls -l --color"
-  alias la='gls -A --color'
-fi
-
 alias code=~/Code
 alias caskroom=/usr/local/Library/Taps/caskroom/homebrew-cask/
 alias dotfiles=~/.dotfiles
 alias dot=~/.dotfiles/bin/dot
+alias x=exit
+alias timestamp='gawk "{now=strftime(\"%F %T \"); print now \$0; fflush(); }"'
+# add a poor facsimile for Linux's `free` if we're on Mac OS
+if ! type free > /dev/null 2>&1 && [[ "$(uname -s)" == 'Darwin' ]]
+then
+  alias free="top -s 0 -l 1 -pid 0 -stats pid | grep '^PhysMem: ' | cut -d : -f 2- | tr ',' '\n'"
+fi

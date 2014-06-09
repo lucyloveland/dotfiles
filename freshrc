@@ -3,6 +3,8 @@
 
 # handles updating fresh
 fresh freshshell/fresh bin/fresh --bin
+fresh freshshell/fresh contrib/completion/fresh-completion.zsh --file=completion/_fresh
+fresh freshshell/fresh-open bin/fresh-open --bin
 
 ## Local Files
 
@@ -10,39 +12,71 @@ fresh freshshell/fresh bin/fresh --bin
 fresh git/gitconfig --file
 fresh git/gitignore --file
 
-## Shell files
+# Path
+# functions to cleanly manipulate path
+# fresh andschwa/shell .path_edit.sh
 
-fresh shell/aliases/editor.sh
-fresh shell/zsh/aliases.zsh
-#fresh twe4ked/dotfiles shell/aliases/git.sh
-#fresh foobacca/dotfiles bash/completion
+## Shell files
+fresh shell/aliases/\*
+fresh shell/functions/\*
+
+# Zsh
+
+fresh-options --file=~/.zshrc --marker
+  # local zsh dotfiles
+  fresh shell/zsh/aliases.zsh
+  fresh shell/zsh/zshrc
+  fresh shell/zsh/keys.zsh
+  
+  # this loads the shell files and needs to be at the bottom of the zshrc for
+  # compdef be availiable
+  fresh freshshell/fresh contrib/source-build.sh
+
+  # oh-my-zsh
+  fresh robbyrussell/oh-my-zsh lib/aliases.zsh
+  fresh robbyrussell/oh-my-zsh plugins/osx/osx.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/node/node.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/npm/npm.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/git-remote-branch/git-remote-branch.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/ruby/ruby.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/gem/gem.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/sublime/sublime.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/jira/jira.plugin.zsh
+  # fresh robbyrussell/oh-my-zsh plugins/knife/_knife #breaks
+  # fresh robbyrussell/oh-my-zsh plugins/knife_ssh/knife_ssh.plugin.zsh #breaks
+  fresh robbyrussell/oh-my-zsh plugins/jsontools/jsontools.plugin.zsh
+  # fresh robbyrussell/oh-my-zsh plugins/docker/_docker #breaks
+  # fresh robbyrussell/oh-my-zsh plugins/coffee/_coffee #breaks
+  fresh robbyrussell/oh-my-zsh plugins/brew/brew.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/bower/bower.plugin.zsh
+  fresh robbyrussell/oh-my-zsh plugins/git-flow/git-flow.plugin.zsh
+  fresh bjeanes/dot-files shells/zsh/lib/completion-waiting-dots.zsh
+
+  # de-duplicate PATH
+  fresh akatov/dotfiles zshrc/dedup-path --ref=55e80fe
+fresh-options
 
 ## Bin Files
 
-# fresh jasoncodes/dotfiles bin/gemdiff --bin=~/bin/gem-diff
-# fresh holman/dotfiles bin/e --bin=~/bin/e
+fresh jasoncodes/dotfiles bin/gemdiff --bin=~/bin/gem-diff
+fresh holman/dotfiles bin/e --bin=~/bin/e
 # fresh twe4ked/dotfiles bin/build_status --bin
-# fresh pengwynn/dotfiles bin/gxpr --bin
 # fresh twe4ked/dotfiles bin/add-keys --bin
 # fresh twe4ked/catacomb bin/catacomb --bin
-# fresh pengwynn/dotfiles bin/git-ci --bin
-# fresh pengwynn/dotfiles bin/git-go --bin
+fresh pengwynn/dotfiles bin/git-ci --bin
+fresh pengwynn/dotfiles bin/git-go --bin
 # fresh pengwynn/dotfiles bin/termcolors --bin
 # fresh jasoncodes/dotfiles bin/timein --bin
 # fresh alrra/dotfiles bin/httpcompression --bin
 
 ## Config Files
 
-fresh vim/vimrc --file
-fresh shell/zsh/zshrc --file
-# fresh jasoncodes/dotfiles config/inputrc --file
-# fresh jasoncodes/dotfiles config/ackrc --file
-fresh osx/osx --file
-
-## Gitflow
-
-fresh bobthecow/git-flow-completion git-flow-completion.zsh
-# fresh jasoncodes/dotfiles config/gitconfig --file
-# fresh pengwynn/dotfiles bin/git-pr --bin
-# fresh twe4ked/dotfiles config/pryrc --file
-# fresh jasoncodes/dotfiles config/gemrc --file
+fresh-options --file
+  fresh vim/vimrc
+  fresh osx/osx
+  fresh jasoncodes/dotfiles config/inputrc
+  fresh jasoncodes/dotfiles config/ackrc
+  fresh twe4ked/dotfiles config/pryrc
+  fresh jasoncodes/dotfiles config/gemrc
+fresh-options

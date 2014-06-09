@@ -5,6 +5,8 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
+export DOT=$HOME/.dotfiles
+
 # Check for Homebrew
 if [ -z `which brew` ];
 then
@@ -13,6 +15,6 @@ then
 fi
 
 # Upgrade homebrew and Install homebrew packages
-brew bundle $ZSHDOT/Brewfile 
+brew bundle $DOT/Brewfile 
 
 exit 0
