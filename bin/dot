@@ -9,7 +9,11 @@ export DOT="$HOME/.dotfiles"
 # Update freshshell and freshen sources
 fresh update
 
-# Update homebrew and Install homebrew packages
+# Update homebrew and install homebrew packages
 echo "Updating homebrew and Installing homebrew packages"
-brew bundle $DOT/Brewfile 
+brew bundle $DOT/Brewfile
 brew update && brew cleanup && brew upgrade
+
+# Update Atom packages
+echo "Upgrading Atom packages"
+apm clean && apm upgrade

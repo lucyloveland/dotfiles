@@ -27,10 +27,6 @@ fresh-options --file=~/.zshrc --marker
   fresh shell/zsh/aliases.zsh
   fresh shell/zsh/zshrc
   fresh shell/zsh/keys.zsh
-  
-  # this loads the shell files and needs to be at the bottom of the zshrc for
-  # compdef be availiable
-  fresh freshshell/fresh contrib/source-build.sh
 
   # oh-my-zsh
   fresh robbyrussell/oh-my-zsh lib/aliases.zsh
@@ -53,6 +49,10 @@ fresh-options --file=~/.zshrc --marker
   fresh robbyrussell/oh-my-zsh plugins/git-flow/git-flow.plugin.zsh
   fresh bjeanes/dot-files shells/zsh/lib/completion-waiting-dots.zsh
 
+  # this loads the shell files and needs to be at the bottom of the zshrc for
+  # compdef to be availiable
+  fresh freshshell/fresh contrib/source-build.sh
+
   # de-duplicate PATH
   fresh akatov/dotfiles zshrc/dedup-path --ref=55e80fe
 fresh-options
@@ -61,9 +61,6 @@ fresh-options
 
 fresh jasoncodes/dotfiles bin/gemdiff --bin=~/bin/gem-diff
 fresh holman/dotfiles bin/e --bin=~/bin/e
-# fresh twe4ked/dotfiles bin/build_status --bin
-# fresh twe4ked/dotfiles bin/add-keys --bin
-# fresh twe4ked/catacomb bin/catacomb --bin
 fresh pengwynn/dotfiles bin/git-ci --bin
 fresh pengwynn/dotfiles bin/git-go --bin
 # fresh pengwynn/dotfiles bin/termcolors --bin
@@ -79,4 +76,6 @@ fresh-options --file
   fresh jasoncodes/dotfiles config/ackrc
   fresh twe4ked/dotfiles config/pryrc
   fresh jasoncodes/dotfiles config/gemrc
+  fresh mathiasbynens/dotfiles .wgetrc
+  fresh mathiasbynens/dotfiles .curlrc
 fresh-options

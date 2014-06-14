@@ -61,7 +61,6 @@ install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-#install xpdf
 
 install homebrew/versions/lua52
 
@@ -71,6 +70,7 @@ install caskroom/cask/brew-cask
 # Install Casks
 cask install google-chrome
 #cask install sublime-text
+cask install atom
 cask install iterm2
 cask install firefox
 cask install netbeans
@@ -83,6 +83,7 @@ cask install logitech-myharmony
 cask install silverlight
 cask install sourcetree
 cask install hive
+cask install vlc
 
 # Remove outdated versions from the cellar
 cleanup
