@@ -61,29 +61,7 @@ install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-
 install homebrew/versions/lua52
-
-# Install brew-cask to enable installing native apps
-install caskroom/cask/brew-cask
-
-# Install Casks
-cask install google-chrome
-#cask install sublime-text
-cask install atom
-cask install iterm2
-cask install firefox
-cask install netbeans
-cask install seashore
-cask install skype
-cask install google-hangouts
-cask install virtualbox
-cask install vagrant
-cask install logitech-myharmony
-cask install silverlight
-cask install sourcetree
-cask install hive
-cask install vlc
 
 # Remove outdated versions from the cellar
 cleanup
