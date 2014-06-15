@@ -1,0 +1,30 @@
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'excludeVcsIgnoredPaths': false
+  'disabledPackages': []
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+'editor':
+  'showIndentGuide': true
+  'fontSize': 15
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true
+'welcome':
+  'showOnStartup': false
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
+'fuzzy-finder':
+  'ignoredNames': [
+    '*.class'
+    '*.asc'
+  ]
+'exception-reporting':
+  'userId': 'aa436f84-96f6-6bb3-5dea-3602c5b841c7'
+'metrics':
+  'userId': '473f63d5560de349c9f31d0a7a1daf97b9461a79'

@@ -12,6 +12,7 @@ fresh update
 # Update homebrew and install homebrew packages
 echo "Updating homebrew and Installing homebrew packages"
 brew bundle $DOT/Brewfile
+brew bundle $DOT/Caskfile
 brew update && brew cleanup && brew upgrade
 
 # Update Atom packages
