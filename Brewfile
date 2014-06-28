@@ -57,11 +57,15 @@ install pv
 install rename
 install rbenv
 install ruby-build
+install rbenv-gem-rehash
+install openssl
+install readline
 install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 install homebrew/versions/lua52
+install mongodb --with-openssl
 
 # Remove outdated versions from the cellar
 cleanup

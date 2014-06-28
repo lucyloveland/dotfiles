@@ -17,6 +17,10 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="./bin:/usr/local/bin:/usr/local/sbin:/Users/jlovel01/.oh-my-zsh/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
+# Rbenv
+export PATH="$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init -)"
+
 # fresh shell
 source ~/.fresh/build/shell.sh
 
