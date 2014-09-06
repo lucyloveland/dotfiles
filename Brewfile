@@ -38,34 +38,35 @@ install wget --enable-iri
 
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
-install homebrew/dupes/grep
+#install homebrew/dupes/grep #broken
 install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install ack
+install docker
 install gawk
 install hashpump
 install htop
 install hub
+install homebrew/versions/lua52
 install lynx
+install mongodb --with-openssl
 install nmap
 install node # This installs `npm` too using the recommended installation method
-install docker
+install openssl
 install p7zip
 install pigz
+install polipo
 install pv
 install rename
 install rbenv
 install ruby-build
 install rbenv-gem-rehash
-install openssl
 install readline
 install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-install homebrew/versions/lua52
-install mongodb --with-openssl
 
 # Remove outdated versions from the cellar
 cleanup
