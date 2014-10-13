@@ -4,7 +4,11 @@
   'showOnStartup': false
 'metrics':
   'userId': '473f63d5560de349c9f31d0a7a1daf97b9461a79'
-'core': {}
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
 'editor':
   'invisibles': {}
   'showIndentGuide': true
