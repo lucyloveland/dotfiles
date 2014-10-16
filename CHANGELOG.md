@@ -1,6 +1,10 @@
 CHANGELOG for dotfiles
 ======================
 
+1.5.1
+-----
+- Bumping Ruby to 2.1.2 to resolve mavericks build issue
+
 1.5.0
 -----
 - Moving from brew bundle to brewdler and fixing brew install script
