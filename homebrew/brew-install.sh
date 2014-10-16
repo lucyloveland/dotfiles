@@ -13,7 +13,20 @@ then
   echo "  Installing Homebrew for you."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
-# Upgrade homebrew and Install homebrew packages
-brew bundle $DOT/Brewfile
+
+# Leverage Brewdler to install non-ruby dependencies from homebrew
+gem install brewdler
+
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
+
+# Install homebrew packages
+brewdle install
+
+# Remove outdated versions from the cellar
+brew cleanup
 
 exit 0
