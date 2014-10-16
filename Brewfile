@@ -1,72 +1,77 @@
 # Install command-line tools using Homebrew
-# Usage: `brew bundle Brewfile`
+# Usage: `brewdle install Brewfile`
 
-# Make sure we’re using the latest Homebrew
-update
-
-# Upgrade any already-installed formulae
-upgrade
+brew 'caskroom/cask/brew-cask'
+tap 'caskroom/versions'
 
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-install coreutils
+brew 'coreutils'
 # Install some other useful utilities like `sponge`
-install moreutils
+brew 'moreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
-install findutils
+brew 'findutils'
 # Install GNU `sed`, overwriting the built-in `sed`
-install gnu-sed --default-names
+brew 'gnu-sed --default-names'
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-install bash
-install bash-completion
+brew 'bash'
+brew 'bash-completion'
 
 # Install zsh
-install zsh
+brew 'zsh'
 
 # git
-install git
-install git-flow
+brew 'git'
+brew 'git-flow'
 
 # Install wget with IRI support
-install wget --enable-iri
-
-# Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-# install ringojs
-# install narwhal
+brew 'wget --enable-iri'
 
 # Install more recent versions of some OS X tools
-install vim --override-system-vi
-#install homebrew/dupes/grep #broken
-install homebrew/php/php55 --with-gmp
+brew 'vim --override-system-vi'
 
 # Install other useful binaries
-install ack
-install docker
-install gawk
-install hashpump
-install htop
-install hub
-install homebrew/versions/lua52
-install lynx
-install mongodb --with-openssl
-install nmap
-install node # This installs `npm` too using the recommended installation method
-install openssl
-install p7zip
-install pigz
-install polipo
-install pv
-install rename
-install rbenv
-install ruby-build
-install rbenv-gem-rehash
-install readline
-install sqlmap
-install tree
-install ucspi-tcp # `tcpserver` et al.
-install webkit2png
+brew 'ack'
+brew 'docker'
+brew 'gawk'
+brew 'hashpump'
+brew 'htop'
+brew 'hub'
+brew 'homebrew/versions/lua52'
+brew 'lynx'
+brew 'mongodb --with-openssl'
+brew 'nmap'
+brew 'node' # This installs `npm` too using the recommended installation method
+brew 'openssl'
+brew 'p7zip'
+brew 'pigz'
+brew 'polipo'
+brew 'pv'
+brew 'rename'
+brew 'rbenv'
+brew 'ruby-build'
+brew 'rbenv-gem-rehash'
+brew 'readline'
+brew 'sqlmap'
+brew 'tree'
+brew 'ucspi-tcp' # `tcpserver` et al.
+brew 'webkit2png'
 
-# Remove outdated versions from the cellar
-cleanup
+# Install Casks
+cask 'atom'
+cask 'chefdk'
+cask 'google-chrome'
+cask 'google-hangouts'
+cask 'google-drive'
+cask 'firefox'
+cask 'iterm2'
+cask 'logitech-myharmony'
+cask 'netbeans'
+cask 'seashore'
+cask 'silverlight'
+cask 'skype'
+cask 'sourcetree'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'vlc'
