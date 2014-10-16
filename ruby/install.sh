@@ -2,7 +2,7 @@
 
 set -ex
 
-export RUBY_VERSION='2.1.1'
+export RUBY_VERSION='2.1.2'
 export CFLAGS=-Wno-error=shorten-64-to-32
 
 INSTALLED_VERSION=$(cat ~/.rbenv/version)
