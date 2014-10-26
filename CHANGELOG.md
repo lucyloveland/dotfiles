@@ -1,6 +1,10 @@
 CHANGELOG for dotfiles
 ======================
 
+1.5.3
+-----
+- adding chefdk to path and fixing path, command line tools script update
+
 1.5.2
 -----
 - Removing Vagrant gem
