@@ -1,6 +1,10 @@
 CHANGELOG for dotfiles
 ======================
 
+1.5.3
+-----
+- adding vim options to support backspace, adding fitbit-connect, updating gitconfig
+
 1.5.2
 -----
 - Removing Vagrant gem
