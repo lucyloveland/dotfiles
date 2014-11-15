@@ -1,6 +1,10 @@
 CHANGELOG for dotfiles
 ======================
 
+1.5.5
+-----
+- fixing fresh
+
 1.5.4
 -----
 - adding vim options to support backspace, adding fitbit-connect, updating gitconfig
