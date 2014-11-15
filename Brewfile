@@ -61,6 +61,7 @@ brew 'webkit2png'
 # Install Casks
 cask 'atom'
 cask 'chefdk'
+cask 'fitbit-connect'
 cask 'google-chrome'
 cask 'google-hangouts'
 cask 'google-drive'
