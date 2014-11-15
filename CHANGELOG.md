@@ -1,9 +1,13 @@
 CHANGELOG for dotfiles
 ======================
 
-1.5.3
+1.5.4
 -----
 - adding vim options to support backspace, adding fitbit-connect, updating gitconfig
+
+1.5.3
+-----
+- adding chefdk to path and fixing path, command line tools script update
 
 1.5.2
 -----
