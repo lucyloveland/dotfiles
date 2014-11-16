@@ -8,4 +8,3 @@ vagrant plugin install vagrant-ohai
 
 # providers
 vagrant plugin install vagrant-aws
-vagrant plugin install vagrant-digitalocean
