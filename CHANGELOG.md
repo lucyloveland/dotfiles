@@ -1,6 +1,10 @@
 CHANGELOG for dotfiles
 ======================
 
+1.5.6
+-----
+- fixing rbenv install
+
 1.5.5
 -----
 - fixing fresh
