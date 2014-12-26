@@ -3,6 +3,9 @@ packages="
   pretty-json
   coffee-lint
   monokai
+  autocomplete-plus
+  javascript-snippets
+  color-picker
 "
 
 for package in $packages
