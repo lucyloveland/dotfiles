@@ -1,22 +1,23 @@
-'exception-reporting':
-  'userId': 'eac6fd9e-2c53-172a-7946-63fba0eb41eb'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '473f63d5560de349c9f31d0a7a1daf97b9461a79'
-'core':
-  'themes': [
-    'atom-dark-ui'
-    'monokai'
-  ]
-'editor':
-  'invisibles': {}
-  'showIndentGuide': true
-  'fontSize': 15
-'ignoredNames': [
+'global':
+  'exception-reporting':
+    'userId': 'eac6fd9e-2c53-172a-7946-63fba0eb41eb'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': '473f63d5560de349c9f31d0a7a1daf97b9461a79'
+  'core':
+    'themes': [
+      'atom-dark-ui'
+      'monokai'
+    ]
+  'editor':
+    'showIndentGuide': true
+    'fontSize': 15
+    'invisibles': {}
+  'ignoredNames': [
     '.git'
     '.svn'
     '.DS_Store'
   ]
-'autocomplete':
-  'includeCompletionsFromAllBuffers': true
+  'autocomplete':
+    'includeCompletionsFromAllBuffers': true
