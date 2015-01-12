@@ -1,6 +1,12 @@
 CHANGELOG for dotfiles
 ======================
 
+1.5.7
+-----
+- installing JDK 1.7 and adding to PATH
+- adding chefdk to PATH
+- installing libiconv
+
 1.5.6
 -----
 - fixing rbenv install
