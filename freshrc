@@ -39,11 +39,7 @@ fresh-options --file=~/.zshrc --marker
   fresh robbyrussell/oh-my-zsh plugins/gem/gem.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/sublime/sublime.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/jira/jira.plugin.zsh
-  # fresh robbyrussell/oh-my-zsh plugins/knife/_knife #breaks
-  # fresh robbyrussell/oh-my-zsh plugins/knife_ssh/knife_ssh.plugin.zsh #breaks
   fresh robbyrussell/oh-my-zsh plugins/jsontools/jsontools.plugin.zsh
-  # fresh robbyrussell/oh-my-zsh plugins/docker/_docker #breaks
-  # fresh robbyrussell/oh-my-zsh plugins/coffee/_coffee #breaks
   fresh robbyrussell/oh-my-zsh plugins/brew/brew.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/bower/bower.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/git-flow/git-flow.plugin.zsh
@@ -63,9 +59,6 @@ fresh jasoncodes/dotfiles bin/gemdiff --bin=~/bin/gem-diff
 fresh holman/dotfiles bin/e --bin=~/bin/e
 fresh pengwynn/dotfiles bin/git-ci --bin
 fresh pengwynn/dotfiles bin/git-go --bin
-# fresh pengwynn/dotfiles bin/termcolors --bin
-# fresh jasoncodes/dotfiles bin/timein --bin
-# fresh alrra/dotfiles bin/httpcompression --bin
 
 ## Config Files
 
