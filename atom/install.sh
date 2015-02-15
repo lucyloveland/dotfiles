@@ -6,6 +6,7 @@ packages="
   autocomplete-plus
   javascript-snippets
   color-picker
+  atom-jshint
 "
 
 for package in $packages
