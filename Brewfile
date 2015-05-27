@@ -33,7 +33,9 @@ brew 'vim --override-system-vi'
 
 # Install other useful binaries
 brew 'ack'
+brew 'boot2docker'
 brew 'docker'
+brew 'docker-compose'
 brew 'gawk'
 brew 'hashpump'
 brew 'htop'

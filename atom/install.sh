@@ -7,6 +7,8 @@ packages="
   javascript-snippets
   color-picker
   atom-jshint
+  linter-shellcheck
+  editorconfig
 "
 
 for package in $packages
