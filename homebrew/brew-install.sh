@@ -15,7 +15,7 @@ then
 fi
 
 # Leverage Brewdler to install non-ruby dependencies from homebrew
-gem install brewdler
+brew tap Homebrew/brewdler
 
 # Make sure we’re using the latest Homebrew
 brew update
