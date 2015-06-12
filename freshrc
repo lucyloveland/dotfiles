@@ -29,7 +29,6 @@ fresh-options --file=~/.zshrc --marker
   fresh shell/zsh/keys.zsh
 
   # oh-my-zsh
-  fresh robbyrussell/oh-my-zsh lib/aliases.zsh
   fresh robbyrussell/oh-my-zsh plugins/osx/osx.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/node/node.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/npm/npm.plugin.zsh
