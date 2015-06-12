@@ -40,7 +40,6 @@ brew 'gawk'
 brew 'hashpump'
 brew 'htop'
 brew 'hub'
-brew 'libiconv'
 brew 'lynx'
 brew 'mongodb', args: ['with-openssl']
 brew 'nmap'

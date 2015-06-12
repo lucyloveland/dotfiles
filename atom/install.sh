@@ -3,7 +3,6 @@ packages="
   pretty-json
   coffee-lint
   monokai
-  autocomplete-plus
   javascript-snippets
   color-picker
   atom-jshint
