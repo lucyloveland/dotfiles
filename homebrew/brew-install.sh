@@ -15,7 +15,7 @@ then
 fi
 
 # Leverage Brewdler to install non-ruby dependencies from homebrew
-brew tap Homebrew/brewdler
+brew tap Homebrew/bundle
 
 # Make sure we’re using the latest Homebrew
 brew update
@@ -24,7 +24,7 @@ brew update
 brew upgrade
 
 # Install homebrew packages
-brewdle install
+brew bundle
 
 # Remove outdated versions from the cellar
 brew cleanup

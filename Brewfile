@@ -12,7 +12,7 @@ brew 'moreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew 'findutils'
 # Install GNU `sed`, overwriting the built-in `sed`
-brew 'gnu-sed --default-names'
+brew 'gnu-sed', args: ['default-names']
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew 'bash'
@@ -26,10 +26,10 @@ brew 'git'
 brew 'git-flow'
 
 # Install wget with IRI support
-brew 'wget --enable-iri'
+brew 'wget', args: ['enable-iri']
 
 # Install more recent versions of some OS X tools
-brew 'vim --override-system-vi'
+brew 'vim', args: ['override-system-vi']
 
 # Install other useful binaries
 brew 'ack'
@@ -42,7 +42,7 @@ brew 'htop'
 brew 'hub'
 brew 'libiconv'
 brew 'lynx'
-brew 'mongodb --with-openssl'
+brew 'mongodb', args: ['with-openssl']
 brew 'nmap'
 brew 'node' # This installs `npm` too using the recommended installation method
 brew 'openssl'
