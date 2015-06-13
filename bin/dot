@@ -16,7 +16,7 @@ brew update && brew cleanup && brew upgrade
 brew cask cleanup && brew cask update
 
 echo "Installing homebrew and caskroom packages"
-brewdle install
+brew bundle
 
 brew cleanup && brew cask cleanup
 
