@@ -23,3 +23,7 @@
   autocomplete:
     includeCompletionsFromAllBuffers: true
   "autocomplete-plus": {}
+  linter:
+    ignoredLinterErrors: [
+      "shellcheck"
+    ]

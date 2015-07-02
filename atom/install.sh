@@ -1,13 +1,13 @@
 #!/bin/bash
 packages="
   pretty-json
-  coffee-lint
   monokai
   javascript-snippets
-  color-picker
   atom-jshint
+  linter
   linter-shellcheck
   editorconfig
+  language-jade
 "
 
 for package in $packages
