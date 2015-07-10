@@ -33,9 +33,6 @@ brew 'vim', args: ['override-system-vi']
 
 # Install other useful binaries
 brew 'ack'
-brew 'boot2docker'
-brew 'docker'
-brew 'docker-compose'
 brew 'gawk'
 brew 'hashpump'
 brew 'htop'
@@ -71,6 +68,7 @@ cask 'google-drive'
 cask 'firefox'
 cask 'iterm2'
 cask 'java7'
+cask 'kitematic'
 cask 'logitech-myharmony'
 cask 'ngrok'
 cask 'netbeans'
