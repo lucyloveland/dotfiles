@@ -6,6 +6,8 @@
 # to make sure you're on the latest and greatest.
 export DOT="$HOME/.dotfiles"
 
+cd $DOT
+
 # Update freshshell and freshen sources
 fresh update
 fresh
