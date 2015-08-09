@@ -10,6 +10,9 @@
       "atom-dark-ui"
       "monokai"
     ]
+    disabledPackages: [
+      "linter-shellcheck"
+    ]
   editor:
     showIndentGuide: true
     fontSize: 15
@@ -23,7 +26,5 @@
   autocomplete:
     includeCompletionsFromAllBuffers: true
   "autocomplete-plus": {}
-  linter:
-    ignoredLinterErrors: [
-      "shellcheck"
-    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true

@@ -11,7 +11,7 @@
 # 'body':
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
-'.editor':
+'.atom-text-editor':
   'ctrl-a': 'editor:move-to-first-character-of-line'
 
 'body':

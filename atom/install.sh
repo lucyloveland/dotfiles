@@ -5,7 +5,6 @@ packages="
   javascript-snippets
   atom-jshint
   linter
-  linter-shellcheck
   editorconfig
   language-jade
 "

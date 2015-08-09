@@ -59,7 +59,6 @@ brew 'webkit2png'
 # Install Casks
 cask 'atom'
 cask 'chefdk'
-cask 'colloquy'
 cask 'fitbit-connect'
 cask 'gitter'
 cask 'google-chrome'
