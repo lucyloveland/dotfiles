@@ -26,5 +26,4 @@
   autocomplete:
     includeCompletionsFromAllBuffers: true
   "autocomplete-plus": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
