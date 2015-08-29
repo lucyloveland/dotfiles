@@ -8,7 +8,10 @@
 
 path = require 'path'
 
-atom.workspaceView.eachEditorView (editorView) ->
-  editor = editorView.getEditor()
-  if path.extname(editor.getPath()) is '.md'
-    editor.setSoftWrap(true)
+atom.workspace.observeTextEditors (editor) ->
+  editorView = atom.views.getView(editor)
+  extension = path.extname(editor.getPath())
+
+  if /^\.(md|markdown)$/i.test(extension)
+    editor.setSoftWrapped(true)
+    editorView.classList.add('markdown')
