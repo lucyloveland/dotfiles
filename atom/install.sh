@@ -3,8 +3,9 @@ packages="
   pretty-json
   monokai
   javascript-snippets
-  atom-jshint
   linter
+  linter-jshint
+  linter-eshint
   editorconfig
   language-jade
 "
