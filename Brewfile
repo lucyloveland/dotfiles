@@ -40,7 +40,6 @@ brew 'hub'
 brew 'lynx'
 brew 'mongodb', args: ['with-openssl']
 brew 'nmap'
-brew 'node' # This installs `npm` too using the recommended installation method
 brew 'nvm'
 brew 'openssl'
 brew 'p7zip'
