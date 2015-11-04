@@ -1,31 +1,34 @@
-'*':
-  'exception-reporting':
-    'userId': 'eac6fd9e-2c53-172a-7946-63fba0eb41eb'
-  'welcome':
-    'showOnStartup': false
-  'metrics':
-    'userId': '473f63d5560de349c9f31d0a7a1daf97b9461a79'
-  'core':
-    'themes': [
-      'atom-dark-ui'
-      'monokai'
+"*":
+  "exception-reporting":
+    userId: "eac6fd9e-2c53-172a-7946-63fba0eb41eb"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "473f63d5560de349c9f31d0a7a1daf97b9461a79"
+  core:
+    themes: [
+      "atom-dark-ui"
+      "monokai"
     ]
-    'disabledPackages': [
-      'linter-shellcheck'
+    disabledPackages: [
+      "linter-shellcheck"
     ]
-  'editor':
-    'showIndentGuide': true
-    'fontSize': 15
-    'invisibles': {}
-    'showInvisibles': true
-  'ignoredNames': [
-    '.git'
-    '.svn'
-    '.DS_Store'
+  editor:
+    showIndentGuide: true
+    fontSize: 15
+    invisibles: {}
+    showInvisibles: true
+  ignoredNames: [
+    ".git"
+    ".svn"
+    ".DS_Store"
   ]
-  'autocomplete':
-    'includeCompletionsFromAllBuffers': true
-  'autocomplete-plus': {}
-  'tree-view': {}
-  'linter-eslint':
-    'useGlobalEslint': true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "autocomplete-plus": {}
+  "tree-view": {}
+  "linter-eslint":
+    useGlobalEslint: true
+    globalNodePath: "~/.nvm/versions/node/v0.12.7"
+  "markdown-preview":
+    breakOnSingleNewline: true
