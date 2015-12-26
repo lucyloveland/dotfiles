@@ -54,6 +54,7 @@ brew 'rbenv'
 brew 'ruby-build'
 brew 'rbenv-gem-rehash'
 brew 'readline'
+brew 'socat'
 brew 'sqlmap'
 brew 'tree'
 brew 'ucspi-tcp' # `tcpserver` et al.
