@@ -21,9 +21,6 @@ export PATH="./bin:/usr/local/bin:/usr/local/sbin:/Users/$USER/.oh-my-zsh/bin:/u
 export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 
-# fresh shell
-source ~/.fresh/build/shell.sh
-
 # shortcut to this dotfiles path is $DOT
 export DOT=$HOME/.dotfiles
 
