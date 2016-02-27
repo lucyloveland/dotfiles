@@ -19,7 +19,7 @@ brew cask cleanup && brew cask update
 
 echo "Installing homebrew and caskroom packages"
 brew bundle
-
+brew-cask-upgrade
 brew cleanup && brew cask cleanup
 
 # Update Atom packages

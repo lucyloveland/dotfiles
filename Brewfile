@@ -62,13 +62,12 @@ brew 'ucspi-tcp' # `tcpserver` et al.
 brew 'webkit2png'
 
 # Install Casks
+cask 'amazon-cloud-drive'
 cask 'atom'
 cask 'chefdk'
 cask 'dockertoolbox'
-cask 'fitbit-connect'
 cask 'gitter'
 cask 'google-chrome'
-cask 'google-hangouts'
 cask 'google-drive'
 cask 'firefox'
 cask 'iterm2'

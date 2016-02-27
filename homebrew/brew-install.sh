@@ -14,6 +14,13 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
 
+# Install brew-cask-upgrade because brewdle doesn't support updating casks
+if [ ! -x /usr/local/bin/brew-cask-upgrade ];
+then
+  wget -O /usr/local/bin/brew-cask-upgrade https://raw.githubusercontent.com/jloveland/brew-cask-upgrade/master/brew-cask-upgrade.sh
+  chmod +x /usr/local/bin/brew-cask-upgrade
+fi
+
 # Leverage Brewdler to install non-ruby dependencies from homebrew
 brew tap Homebrew/bundle
 
@@ -25,6 +32,9 @@ brew upgrade
 
 # Install homebrew packages
 brew bundle
+
+# Install outdated casks
+brew-cask-upgrade
 
 # Remove outdated versions from the cellar
 brew cleanup
