@@ -41,6 +41,7 @@ brew 'htop'
 brew 'hub'
 brew 'kubernetes-cli'
 brew 'lynx'
+brew 'maven'
 brew 'mongodb', args: ['with-openssl']
 brew 'nmap'
 brew 'nvm'
