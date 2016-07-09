@@ -36,7 +36,6 @@ fresh-options --file=~/.zshrc --marker
   fresh robbyrussell/oh-my-zsh plugins/git-remote-branch/git-remote-branch.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/ruby/ruby.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/gem/gem.plugin.zsh
-  fresh robbyrussell/oh-my-zsh plugins/sublime/sublime.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/jira/jira.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/jsontools/jsontools.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/brew/brew.plugin.zsh
