@@ -1,7 +1,6 @@
 # Install command-line tools using Homebrew
 # Usage: `brewdle install Brewfile`
 
-brew 'caskroom/cask/brew-cask'
 tap 'caskroom/versions'
 
 # Install GNU core utilities (those that come with OS X are outdated)
