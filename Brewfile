@@ -61,7 +61,7 @@ brew 'ucspi-tcp' # `tcpserver` et al.
 brew 'webkit2png'
 
 # Install Casks
-cask 'amazon-cloud-drive'
+cask 'amazon-drive'
 cask 'atom'
 cask 'dockertoolbox'
 cask 'gitter'
