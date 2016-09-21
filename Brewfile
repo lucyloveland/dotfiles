@@ -32,6 +32,7 @@ brew 'vim', args: ['override-system-vi']
 
 # Install other useful binaries
 brew 'ack'
+brew 'awscli'
 brew 'cmake'
 brew 'gawk'
 brew 'go'
