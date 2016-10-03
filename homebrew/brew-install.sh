@@ -10,7 +10,7 @@ export DOT=$HOME/.dotfiles
 # Check for Homebrew
 if [ -z `which brew` ];
 then
-  echo "  Installing Homebrew for you."
+  echo "  Installing Homebrew for you. Please press [ENTER] to begin install."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
 
