@@ -8,6 +8,7 @@ packages="
   linter-eshint
   editorconfig
   language-jade
+  file-icons
 "
 
 for package in $packages
