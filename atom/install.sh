@@ -4,8 +4,8 @@ packages="
   monokai
   javascript-snippets
   linter
-  linter-jshint
-  linter-eshint
+  linter-js-standard
+  standard-formatter
   editorconfig
   language-jade
   file-icons
