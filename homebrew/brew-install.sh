@@ -14,13 +14,6 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /tmp/homebrew-install.log
 fi
 
-# Install brew-cask-upgrade because brewdle doesn't support updating casks
-if [ ! -x /usr/local/bin/brew-cask-upgrade ];
-then
-  sudo curl -o /usr/local/bin/brew-cask-upgrade https://gist.githubusercontent.com/c00kiemon5ter/3730069b6c920841a3ca/raw/741f07950302e27aff3c8c2eba71035cfec8360f/brew-cask-upgrade.sh
-  chmod 755 /usr/local/bin/brew-cask-upgrade
-fi
-
 # Leverage Brewdler to install non-ruby dependencies from homebrew
 brew tap Homebrew/bundle
 
