@@ -1,8 +1,6 @@
 # Install command-line tools using Homebrew
 # Usage: `brewdle install Brewfile`
 
-tap 'caskroom/versions'
-
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew 'coreutils'
@@ -34,8 +32,6 @@ brew 'vim', args: ['override-system-vi']
 brew 'ack'
 brew 'awscli'
 brew 'cmake'
-brew 'docker-clean'
-brew 'docker-compose'
 brew 'gawk'
 brew 'go'
 brew 'hashpump'
@@ -50,6 +46,7 @@ brew 'openssl'
 brew 'p7zip'
 brew 'pigz'
 brew 'polipo'
+brew 'python'
 brew 'pv'
 brew 'rename'
 brew 'rbenv'

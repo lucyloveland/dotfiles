@@ -21,13 +21,15 @@
     ".DS_Store"
   ]
   "linter-eslint":
-    globalNodePath: "~/.nvm/versions/node/v0.12.7"
+    global:
+      globalNodePath: "~/.nvm/versions/node/v0.12.7"
   "linter-js-standard":
     checkStyleDevDependencies: true
     showEslintRules: true
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     breakOnSingleNewline: true
   metrics:
