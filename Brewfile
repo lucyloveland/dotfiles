@@ -29,51 +29,42 @@ brew 'wget', args: ['enable-iri']
 brew 'vim', args: ['override-system-vi']
 
 # Install other useful binaries
-brew 'ack'
+brew 'ack' # search tool designed for code
 brew 'awscli'
+brew 'bandwhich'
 brew 'cmake'
 brew 'gawk'
 brew 'go'
-brew 'hashpump'
 brew 'htop'
-brew 'hub'
+brew 'hub' # an extension to command-line git for Github
 brew 'kubernetes-cli'
-brew 'lynx'
 brew 'maven'
 brew 'nmap'
 brew 'nvm'
 brew 'openssl'
 brew 'p7zip'
-brew 'pigz'
-brew 'polipo'
 brew 'python'
-brew 'pv'
-brew 'rename'
 brew 'rbenv'
 brew 'ruby-build'
 brew 'readline'
-brew 'socat'
-brew 'sqlmap'
+brew 'sqlmap' # sql injection hacking tool
 brew 'ssh-copy-id'
-brew 'tree'
-brew 'ucspi-tcp' # `tcpserver` et al.
-brew 'webkit2png'
+brew 'tree' # recursive directory listing command
+brew 'webkit2png' # takes screen shots of websites
 
 # Install Casks
+cask 'amazon-music'
 cask 'atom'
 cask 'docker'
 cask 'etcher'
 cask 'gimp'
 cask 'google-chrome'
-cask 'firefox'
 # cask 'intellij-idea'
 cask 'iterm2'
 cask 'java'
 cask 'kitematic'
 cask 'ngrok'
 cask 'omnidisksweeper'
-cask 'proxpn'
-cask 'silverlight'
 cask 'slack'
 cask 'spotify'
 cask 'virtualbox'
