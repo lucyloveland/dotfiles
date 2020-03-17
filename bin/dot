@@ -10,7 +10,6 @@ cd $DOT
 
 # Update freshshell and freshen sources
 fresh update
-fresh
 
 # Update homebrew and caskroom, install homebrew and caskroom packages
 echo "Updating homebrew and caskroom"
