@@ -19,6 +19,7 @@ export PATH="./bin:/usr/local/bin:/usr/local/sbin:/Users/$USER/.oh-my-zsh/bin:/u
 
 # Rbenv
 export PATH="$HOME/.rbenv/shims:$PATH"
+# Load rbenv automatically
 eval "$(rbenv init -)"
 
 # shortcut to this dotfiles path is $DOT

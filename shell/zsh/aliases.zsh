@@ -1,5 +1,4 @@
 alias code=~/Code
-alias caskroom=/usr/local/Library/Taps/caskroom/homebrew-cask/
 alias dotfiles=~/.dotfiles
 alias dot=~/.dotfiles/bin/dot
 alias x=exit
