@@ -29,7 +29,6 @@ fresh-options --file=~/.zshrc --marker
   fresh shell/zsh/keys.zsh
 
   # oh-my-zsh
-  fresh robbyrussell/oh-my-zsh plugins/osx/osx.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/node/node.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/npm/npm.plugin.zsh
   fresh robbyrussell/oh-my-zsh plugins/git/git.plugin.zsh
@@ -61,7 +60,6 @@ fresh pengwynn/dotfiles bin/git-go --bin
 
 fresh-options --file
   fresh vim/vimrc
-  fresh osx/osx
   fresh jasoncodes/dotfiles config/inputrc
   fresh jasoncodes/dotfiles config/ackrc
   fresh twe4ked/dotfiles config/pryrc
