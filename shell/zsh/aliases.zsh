@@ -1,4 +1,4 @@
-alias code=~/Code
+alias c=~/Code
 alias dotfiles=~/.dotfiles
 alias dot=~/.dotfiles/bin/dot
 alias x=exit
