@@ -9,7 +9,7 @@ brew 'moreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew 'findutils'
 # Install GNU `sed`, overwriting the built-in `sed`
-brew 'gnu-sed', args: ['default-names']
+brew 'gnu-sed'
 # Install Bash 4
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew 'bash'
@@ -21,9 +21,6 @@ brew 'zsh'
 # git
 brew 'git'
 brew 'git-flow'
-
-# Install wget with IRI support
-brew 'wget', args: ['enable-iri']
 
 # Install more recent versions of some OS X tools
 brew 'vim', args: ['override-system-vi']
@@ -52,6 +49,7 @@ brew 'sqlmap' # sql injection hacking tool
 brew 'ssh-copy-id'
 brew 'tree' # recursive directory listing command
 brew 'webkit2png' # takes screen shots of websites
+brew 'wget'
 
 # Install Casks
 cask 'amazon-music'
