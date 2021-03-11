@@ -18,7 +18,3 @@ brew update && brew cleanup && brew upgrade
 echo "Installing homebrew and caskroom packages"
 brew bundle
 brew cleanup
-
-# Update Atom packages
-echo "Upgrading Atom packages"
-apm clean && apm upgrade
