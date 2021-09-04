@@ -31,6 +31,7 @@ brew 'awscli'
 brew 'bandwhich'
 brew 'cmake'
 brew 'gawk'
+brew 'gh' #github cli
 brew 'go'
 brew 'htop'
 brew 'hub' # an extension to command-line git for Github
