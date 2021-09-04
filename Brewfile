@@ -56,7 +56,7 @@ brew 'webkit2png' # takes screen shots of websites
 brew 'wget'
 
 # Install Casks
-cask 'amazon-music'
+# cask 'amazon-music'
 cask 'atom'
 cask 'docker'
 cask 'gimp'
