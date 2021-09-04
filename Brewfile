@@ -23,7 +23,7 @@ brew 'git'
 brew 'git-flow'
 
 # Install more recent versions of some OS X tools
-brew 'vim', args: ['override-system-vi']
+brew 'vim'
 
 # Install other useful binaries
 brew 'ack' # search tool designed for code
