@@ -1,11 +1,14 @@
 alias prettyjson='python -m json.tool'
 
-# Python3
-# alias python=/usr/local/bin/python3
-# alias pip=/usr/local/bin/pip3
+# Alias to Python to the Python3 installed by Homebrew
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3
 
-# Use pyenv instead of hardcoding alias ^
+# suppress homebrew warnings
+# alias brew='env PATH="${PATH//$(pyenv root)/shims:/}" brew'
+
 # set version in install script
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
 fi
