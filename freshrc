@@ -45,8 +45,6 @@ fresh-options --file=~/.zshrc --marker
   # compdef to be availiable
   fresh freshshell/fresh contrib/source-build.sh
 
-  # de-duplicate PATH
-  fresh akatov/dotfiles zshrc/dedup-path --ref=55e80fe
 fresh-options
 
 ## Bin Files
