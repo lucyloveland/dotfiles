@@ -26,9 +26,6 @@ brew upgrade
 # Install homebrew packages
 brew bundle
 
-# Install outdated casks
-brew-cask-upgrade
-
 # Remove outdated versions from the cellar
 brew cleanup
 
