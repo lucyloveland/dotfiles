@@ -35,6 +35,7 @@ brew 'gh' #github cli
 brew 'go'
 brew 'htop'
 brew 'hub' # an extension to command-line git for Github
+brew 'imagemagick'
 brew 'java'
 brew 'kubernetes-cli'
 brew 'maven'
