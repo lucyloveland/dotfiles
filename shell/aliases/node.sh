@@ -1,0 +1,1 @@
+alias start-node=". ~/.dotfiles/node/nvm.sh"
