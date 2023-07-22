@@ -13,9 +13,13 @@ fresh update
 
 # Update homebrew and caskroom, install homebrew and caskroom packages
 echo "Updating homebrew and caskroom"
-brew update && brew cleanup && brew upgrade
+brew update
+brew cleanup
+brew upgrade
 
 echo "Installing homebrew and caskroom packages"
 brew bundle
+# cask-upgrade
+brew cu
 brew cleanup
 brew autoremove

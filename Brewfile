@@ -1,6 +1,12 @@
 # Install command-line tools using Homebrew
 # Usage: `brewdle install Brewfile`
 
+# Taps
+tap 'homebrew/core'
+tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'buo/cask-upgrade'
+
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew 'coreutils'
@@ -57,17 +63,18 @@ brew 'webkit2png' # takes screen shots of websites
 brew 'wget'
 
 # Install Casks
-brew 'docker'
-brew 'gimp'
-brew 'google-chrome'
-brew 'iterm2'
-brew 'nordvpn'
-brew 'omnidisksweeper'
-brew 'slack'
-brew 'virtualbox'
-brew 'visual-studio-code'
-brew 'vlc'
-brew 'vnc-viewer'
-brew 'xquartz'
-brew 'ultimaker-cura'
-brew 'wireshark'
+cask 'docker'
+cask 'gimp'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'ngrok'
+cask 'nordvpn'
+cask 'omnidisksweeper'
+cask 'slack'
+cask 'virtualbox'
+cask 'visual-studio-code'
+cask 'vlc'
+cask 'vnc-viewer'
+cask 'xquartz'
+cask 'ultimaker-cura'
+cask 'wireshark'
