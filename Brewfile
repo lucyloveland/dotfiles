@@ -2,9 +2,7 @@
 # Usage: `brewdle install Brewfile`
 
 # Taps
-tap 'homebrew/core'
 tap 'homebrew/bundle'
-tap 'homebrew/cask'
 tap 'buo/cask-upgrade'
 
 # Install GNU core utilities (those that come with OS X are outdated)
@@ -70,6 +68,7 @@ cask 'iterm2'
 cask 'ngrok'
 cask 'nordvpn'
 cask 'omnidisksweeper'
+cask 'postman'
 cask 'slack'
 cask 'virtualbox'
 cask 'visual-studio-code'
