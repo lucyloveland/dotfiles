@@ -56,6 +56,7 @@ brew 'ruby-build'
 brew 'readline'
 brew 'sqlmap' # sql injection hacking tool
 brew 'ssh-copy-id'
+brew 'transmission-cli' #bit torrent client
 brew 'tree' # recursive directory listing command
 brew 'webkit2png' # takes screen shots of websites
 brew 'wget'
