@@ -5,8 +5,6 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
-export DOT=$HOME/.dotfiles
-
 # Check for Homebrew
 if [ -z `which brew` ];
 then

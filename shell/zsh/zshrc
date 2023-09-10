@@ -25,6 +25,9 @@ eval "$(rbenv init -)"
 # shortcut to this dotfiles path is $DOT
 export DOT=$HOME/.dotfiles
 
+# Brewfile
+export BREWFILE=$DOT/Brewfile
+
 # your project folder that we can `c [tab]` to
 export PROJECTS=~/Code
 

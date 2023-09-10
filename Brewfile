@@ -1,81 +1,147 @@
-# Install command-line tools using Homebrew
-# Usage: `brewdle install Brewfile`
-
-# Taps
-tap 'homebrew/bundle'
-tap 'buo/cask-upgrade'
-
-# Install GNU core utilities (those that come with OS X are outdated)
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-brew 'coreutils'
-# Install some other useful utilities like `sponge`
-brew 'moreutils'
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
-brew 'findutils'
-# Install GNU `sed`, overwriting the built-in `sed`
-brew 'gnu-sed'
-# Install Bash 4
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-brew 'bash'
-brew 'bash-completion'
-
-# Install zsh
-brew 'zsh'
-
-# git
-brew 'git'
-brew 'git-flow'
-
-# Install more recent versions of some OS X tools
-brew 'vim'
-
-# Install other useful binaries
-brew 'ack' # search tool designed for code
-brew 'awscli'
-brew 'bandwhich'
-brew 'cmake'
-brew 'gawk'
-brew 'gh' #github cli
-brew 'go'
-brew 'htop'
-brew 'hub' # an extension to command-line git for Github
-brew 'imagemagick'
-brew 'java'
-brew 'kubernetes-cli'
-brew 'maven'
-brew 'nmap'
-brew 'nvm'
-brew 'openssl'
-brew 'p7zip'
-brew 'pipx'
-brew 'python'
-brew 'pyenv'
-brew 'pyenv-virtualenv'
-brew 'pyenv-virtualenvwrapper'
-brew 'rbenv'
-brew 'ruby-build'
-brew 'readline'
-brew 'sqlmap' # sql injection hacking tool
-brew 'ssh-copy-id'
-brew 'transmission-cli' #bit torrent client
-brew 'tree' # recursive directory listing command
-brew 'webkit2png' # takes screen shots of websites
-brew 'wget'
-
-# Install Casks
-cask 'docker'
-cask 'gimp'
-cask 'google-chrome'
-cask 'iterm2'
-cask 'ngrok'
-cask 'nordvpn'
-cask 'omnidisksweeper'
-cask 'postman'
-cask 'slack'
-cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'vnc-viewer'
-cask 'xquartz'
-cask 'ultimaker-cura'
-cask 'wireshark'
+tap "buo/cask-upgrade"
+tap "homebrew/bundle"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
+tap "homebrew/services"
+# Search tool like grep, but optimized for programmers
+brew "ack"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Terminal bandwidth utilization tool
+brew "bandwhich"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Programmable completion for Bash 3.2
+brew "bash-completion"
+# Manage compile and link flags for libraries
+brew "pkg-config", link: false
+# Cross-platform make
+brew "cmake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# GNU awk utility
+brew "gawk"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
+brew "git"
+# Extensions to follow Vincent Driessen's branching model
+brew "git-flow"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Improved top (interactive process viewer)
+brew "htop"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Portable Foreign Function Interface library
+brew "libffi"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
+# Port scanning utility for large networks
+brew "nmap"
+# Manage multiple Node.js versions
+brew "nvm"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Python version management
+brew "pyenv"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
+# Alternative to pyenv for managing virtualenvs
+brew "pyenv-virtualenvwrapper"
+# Install various Ruby versions and implementations
+brew "ruby-build"
+# Ruby version manager
+brew "rbenv"
+# Penetration testing for SQL injection and database servers
+brew "sqlmap"
+# Add a public key to a remote machine's authorized_keys file
+brew "ssh-copy-id"
+# Tool Command Language
+brew "tcl-tk"
+# Lightweight BitTorrent client
+brew "transmission-cli"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Create screenshots of webpages from the terminal
+brew "webkit2png"
+# Internet file retriever
+brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
+cask "etcher"
+# Free and open-source image editor
+cask "gimp"
+# Web browser
+cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# VPN client for secure internet access and private browsing
+cask "nordvpn"
+# Finds large, unwanted files and deletes them
+cask "omnidisksweeper"
+# Collaboration platform for API development
+cask "postman"
+# Team communication and collaboration software
+cask "slack"
+# 3D printer and slicing GUI
+cask "ultimaker-cura"
+# Virtualizer for x86 hardware
+cask "virtualbox"
+# Open-source code editor
+cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
+# Remote desktop application focusing on security
+cask "vnc-viewer"
+# Open-source version of the X.Org X Window System
+cask "xquartz"
+# Video communication and virtual meeting platform
+cask "zoom"
+vscode "github.vscode-github-actions"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "redhat.java"
+vscode "VisualStudioExptTeam.intellicode-api-usage-examples"
+vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
