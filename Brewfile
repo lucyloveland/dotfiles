@@ -77,6 +77,8 @@ brew "pyenv-virtualenvwrapper"
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
 # Penetration testing for SQL injection and database servers
 brew "sqlmap"
 # Add a public key to a remote machine's authorized_keys file
