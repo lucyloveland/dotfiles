@@ -9,6 +9,8 @@ brew "ack"
 brew "openssl@1.1"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
