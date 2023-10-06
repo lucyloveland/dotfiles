@@ -6,9 +6,9 @@ tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Official Amazon AWS command-line interface
