@@ -7,8 +7,6 @@ tap "homebrew/services"
 brew "ack"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Official Amazon AWS command-line interface
@@ -49,6 +47,8 @@ brew "htop"
 brew "hub"
 # Portable Foreign Function Interface library
 brew "libffi"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Tools and libraries to manipulate images in many formats
