@@ -99,6 +99,8 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Web browser focusing on privacy
+cask "duckduckgo"
 cask "etcher"
 # Free and open-source image editor
 cask "gimp"
