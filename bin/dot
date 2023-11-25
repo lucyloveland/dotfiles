@@ -16,6 +16,8 @@ echo "Updating homebrew and caskroom"
 brew update
 brew outdated --greedy
 echo "Installing homebrew and caskroom packages"
+brew upgrade
+# upgrade casks
 brew upgrade --greedy
 brew bundle
 brew cu
