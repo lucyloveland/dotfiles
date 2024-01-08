@@ -1,6 +1,5 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
@@ -47,14 +46,6 @@ brew "htop"
 brew "hub"
 # Portable Foreign Function Interface library
 brew "libffi"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# Tools and libraries to manipulate images in many formats
-brew "imagemagick"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Development kit for the Java programming language
 brew "openjdk"
 # Java-based project management
@@ -65,6 +56,8 @@ brew "moreutils"
 brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
 # Execute binaries from Python packages in isolated environments
@@ -75,6 +68,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
