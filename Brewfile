@@ -24,8 +24,6 @@ brew "cmake"
 brew "coreutils"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # GNU awk utility
@@ -46,10 +44,6 @@ brew "htop"
 brew "hub"
 # Portable Foreign Function Interface library
 brew "libffi"
-# Development kit for the Java programming language
-brew "openjdk"
-# Java-based project management
-brew "maven"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Port scanning utility for large networks
