@@ -94,7 +94,6 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
-cask "etcher"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
