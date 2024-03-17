@@ -16,8 +16,6 @@ brew "bandwhich"
 brew "bash"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
-# Manage compile and link flags for libraries
-brew "pkg-config", link: false
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -56,6 +54,8 @@ brew "openssl@1.1"
 brew "p7zip"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Manage compile and link flags for libraries
+brew "pkg-config", link: false
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
@@ -88,12 +88,15 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+cask "etcher"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
 cask "google-chrome"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # VPN client for secure internet access and private browsing
@@ -106,7 +109,7 @@ cask "postman"
 cask "slack"
 # 3D printer and slicing GUI
 cask "ultimaker-cura"
-# Virtualizer for x86 hardware
+# Virtualiser for x86 hardware
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
