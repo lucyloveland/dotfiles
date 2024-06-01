@@ -100,6 +100,8 @@ cask "microsoft-auto-update"
 cask "ngrok"
 # VPN client for secure internet access and private browsing
 cask "nordvpn"
+# Get up and running with large language models locally
+cask "ollama"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
 # Collaboration platform for API development
@@ -120,6 +122,7 @@ cask "vnc-viewer"
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "continue.continue"
 vscode "github.vscode-github-actions"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
