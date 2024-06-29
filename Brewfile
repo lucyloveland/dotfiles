@@ -87,36 +87,14 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Free and open-source image editor
-cask "gimp"
-# Web browser
-cask "google-chrome"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # VPN client for secure internet access and private browsing
 cask "nordvpn"
-# Get up and running with large language models locally
-cask "ollama"
-# Finds large, unwanted files and deletes them
-cask "omnidisksweeper"
-# Collaboration platform for API development
-cask "postman"
-# Team communication and collaboration software
-cask "slack"
-# 3D printer and slicing GUI
-cask "ultimaker-cura"
-# Virtualiser for x86 hardware
-cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
-# Multimedia player
-cask "vlc"
-# Remote desktop application focusing on security
-cask "vnc-viewer"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # Video communication and virtual meeting platform
