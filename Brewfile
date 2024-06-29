@@ -1,3 +1,4 @@
+tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
@@ -108,8 +109,8 @@ cask "postman"
 cask "slack"
 # 3D printer and slicing GUI
 cask "ultimaker-cura"
-# Virtualiser for x86 hardware
-cask "virtualbox"
+# Open-source code editor
+cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Remote desktop application focusing on security
