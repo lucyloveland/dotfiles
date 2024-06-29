@@ -1,6 +1,5 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
