@@ -1,8 +1,8 @@
 alias prettyjson='python -m json.tool'
 
 # Alias to Python to the Python3 installed by Homebrew
-# alias python=/usr/local/bin/python3
-# alias pip=/usr/local/bin/pip3
+alias python=python3
+alias pip=pip3
 
 # suppress homebrew warnings
 # alias brew='env PATH="${PATH//$(pyenv root)/shims:/}" brew'

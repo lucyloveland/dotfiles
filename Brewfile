@@ -51,6 +51,8 @@ brew "nvm"
 brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Manage compile and link flags for libraries
