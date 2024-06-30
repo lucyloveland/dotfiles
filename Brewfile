@@ -25,6 +25,8 @@ brew "docker"
 brew "findutils"
 # GNU awk utility
 brew "gawk"
+# GNU compiler collection
+brew "gcc"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
