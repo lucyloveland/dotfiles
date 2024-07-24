@@ -49,6 +49,8 @@ brew "moreutils"
 brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
+# Create, run, and share large language models (LLMs)
+brew "ollama", link: false
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
