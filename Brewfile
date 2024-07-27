@@ -1,12 +1,14 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
+# Library for command-line editing
+brew "readline"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -41,8 +43,16 @@ brew "go"
 brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Portable Foreign Function Interface library
 brew "libffi"
+# Development kit for the Java programming language
+brew "openjdk"
+# Java-based project management
+brew "maven"
 # Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
 # Port scanning utility for large networks
@@ -51,16 +61,10 @@ brew "nmap"
 brew "nvm"
 # Create, run, and share large language models (LLMs)
 brew "ollama", link: false
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
-# Manage compile and link flags for libraries
-brew "pkg-config", link: false
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
@@ -93,6 +97,8 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# App to build and share containerised applications and microservices
+cask "docker"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
@@ -113,6 +119,8 @@ cask "omnidisksweeper"
 cask "postman"
 # Team communication and collaboration software
 cask "slack"
+# Music streaming service
+cask "spotify"
 # 3D printer and slicing GUI
 cask "ultimaker-cura"
 # Open-source code editor
@@ -121,28 +129,9 @@ cask "visual-studio-code"
 cask "vlc"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
+# Network protocol analyzer
+cask "wireshark"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
-vscode "continue.continue"
-vscode "github.vscode-github-actions"
-vscode "ms-azuretools.vscode-docker"
-vscode "ms-python.debugpy"
-vscode "ms-python.isort"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-toolsai.jupyter"
-vscode "ms-toolsai.jupyter-keymap"
-vscode "ms-toolsai.jupyter-renderers"
-vscode "ms-toolsai.vscode-jupyter-cell-tags"
-vscode "ms-toolsai.vscode-jupyter-slideshow"
-vscode "ms-vscode-remote.remote-containers"
-vscode "redhat.java"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
-vscode "vscjava.vscode-java-debug"
-vscode "vscjava.vscode-java-dependency"
-vscode "vscjava.vscode-java-pack"
-vscode "vscjava.vscode-java-test"
-vscode "vscjava.vscode-maven"
