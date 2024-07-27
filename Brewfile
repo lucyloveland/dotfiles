@@ -1,7 +1,5 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
@@ -72,7 +70,7 @@ brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+brew "python@3.12"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -119,8 +117,6 @@ cask "omnidisksweeper"
 cask "postman"
 # Team communication and collaboration software
 cask "slack"
-# Music streaming service
-cask "spotify"
 # 3D printer and slicing GUI
 cask "ultimaker-cura"
 # Open-source code editor
