@@ -70,7 +70,7 @@ brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
+brew "python@3.9"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -107,8 +107,6 @@ cask "iterm2"
 cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
-# VPN client for secure internet access and private browsing
-cask "nordvpn"
 # Get up and running with large language models locally
 cask "ollama"
 # Finds large, unwanted files and deletes them
@@ -125,9 +123,25 @@ cask "visual-studio-code"
 cask "vlc"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
-# Network protocol analyzer
-cask "wireshark"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-python.debugpy"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "redhat.java"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-maven"
