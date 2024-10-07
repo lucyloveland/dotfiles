@@ -1,11 +1,11 @@
-# lilyloveland gitconfig
+# lucyloveland gitconfig
 #
 
 [hub]
         protocol = https
 [user]
-        name = lilyloveland
-        email = lily.j.loveland@icloud.com
+        name = lucyloveland
+        email = lucy.j.loveland@icloud.com
 [credential]
         helper = osxkeychain
 [alias]
