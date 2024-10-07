@@ -1,12 +1,9 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
+tap "homebrew/cask-versions"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
-# Library for command-line editing
-brew "readline"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -25,8 +22,6 @@ brew "docker"
 brew "findutils"
 # GNU awk utility
 brew "gawk"
-# GNU compiler collection
-brew "gcc"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -57,18 +52,18 @@ brew "moreutils"
 brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
-# Create, run, and share large language models (LLMs)
-brew "ollama", link: false
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Execute binaries from Python packages in isolated environments
-brew "pipx"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Install various Ruby versions and implementations
@@ -95,6 +90,8 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Text editor
+cask "atom"
 # App to build and share containerised applications and microservices
 cask "docker"
 # Free and open-source image editor
@@ -107,6 +104,8 @@ cask "iterm2"
 cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
+# VPN client for secure internet access and private browsing
+cask "nordvpn"
 # Get up and running with large language models locally
 cask "ollama"
 # Finds large, unwanted files and deletes them
@@ -117,12 +116,16 @@ cask "postman"
 cask "slack"
 # 3D printer and slicing GUI
 cask "ultimaker-cura"
+# Virtualiser for x86 hardware
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
+# Network protocol analyzer
+cask "wireshark"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # Video communication and virtual meeting platform
@@ -141,7 +144,9 @@ vscode "ms-vscode-remote.remote-containers"
 vscode "redhat.java"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-gradle"
 vscode "vscjava.vscode-java-debug"
 vscode "vscjava.vscode-java-dependency"
 vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
 vscode "vscjava.vscode-maven"
