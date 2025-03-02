@@ -1,4 +1,4 @@
-# jloveland does dotfiles
+# lucyloveland does dotfiles
 
 ## dotfiles
 
@@ -13,7 +13,7 @@ subject](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 Run this:
 
 ```sh
-git clone https://github.com/jloveland/dotfiles.git ~/.dotfiles
+git clone https://github.com/lucyloveland/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
