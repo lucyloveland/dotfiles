@@ -1,9 +1,10 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -17,7 +18,7 @@ brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # GNU awk utility
@@ -52,18 +53,16 @@ brew "moreutils"
 brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Python package management tool
+brew "poetry"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Install various Ruby versions and implementations
@@ -90,10 +89,8 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Text editor
-cask "atom"
 # App to build and share containerised applications and microservices
-cask "docker", link: false
+cask "docker"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
@@ -110,18 +107,12 @@ cask "ollama"
 cask "omnidisksweeper"
 # Team communication and collaboration software
 cask "slack"
-# 3D printer and slicing GUI
-cask "ultimaker-cura"
 # Virtualiser for x86 hardware
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Remote desktop application focusing on security
-cask "vnc-viewer"
-# Network protocol analyzer
-cask "wireshark"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # Video communication and virtual meeting platform
