@@ -15,6 +15,8 @@ brew "bash"
 brew "bash-completion"
 # Cross-platform make
 brew "cmake"
+# GNU multiple precision arithmetic library
+brew "gmp"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Pack, ship and run any application as a lightweight container
