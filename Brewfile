@@ -3,8 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 # Search tool like grep, but optimized for programmers
 brew "ack"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -66,6 +64,8 @@ brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
 # Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Install various Ruby versions and implementations
 brew "ruby-build"
@@ -92,7 +92,7 @@ brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
@@ -104,7 +104,7 @@ cask "microsoft-auto-update"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # Get up and running with large language models locally
-cask "ollama"
+cask "ollama-app"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
 # Team communication and collaboration software
@@ -119,6 +119,7 @@ cask "vlc"
 cask "xquartz"
 # Video communication and virtual meeting platform
 cask "zoom"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
