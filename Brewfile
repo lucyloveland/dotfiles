@@ -109,7 +109,7 @@ cask "ollama-app"
 cask "omnidisksweeper"
 # Team communication and collaboration software
 cask "slack"
-# Virtualiser for x86 hardware
+# Virtualiser for arm64 hardware
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
@@ -125,6 +125,7 @@ vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-toolsai.jupyter"
 vscode "ms-toolsai.jupyter-keymap"
 vscode "ms-toolsai.jupyter-renderers"
