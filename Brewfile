@@ -91,6 +91,8 @@ brew "webkit2png"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Photo storage and sharing service
+cask "amazon-photos"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Free and open-source image editor
