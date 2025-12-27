@@ -64,9 +64,7 @@ brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+brew "python"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
