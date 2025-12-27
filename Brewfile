@@ -1,6 +1,5 @@
 tap "buo/cask-upgrade"
-tap "homebrew/bundle"
-tap "homebrew/services"
+
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Official Amazon AWS command-line interface
@@ -55,6 +54,8 @@ brew "nmap"
 brew "nvm"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Python package management tool
 brew "poetry"
 # Python version management
@@ -63,8 +64,6 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
-# Interpreted, interactive, object-oriented programming language
-brew "python"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
