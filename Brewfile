@@ -93,6 +93,8 @@ brew "zsh"
 cask "amazon-photos"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Set of tools to manage resources and applications hosted on Google Cloud
+cask "gcloud-cli"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
@@ -133,6 +135,7 @@ vscode "ms-toolsai.vscode-jupyter-cell-tags"
 vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode-remote.remote-containers"
 vscode "redhat.java"
+vscode "saoudrizwan.claude-dev"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscjava.vscode-gradle"
