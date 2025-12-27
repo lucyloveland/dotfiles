@@ -1,5 +1,4 @@
 tap "buo/cask-upgrade"
-
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Official Amazon AWS command-line interface
@@ -26,8 +25,6 @@ brew "gawk"
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Extensions to follow Vincent Driessen's branching model
-brew "git-flow"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # Open source programming language to build simple/reliable/efficient software
@@ -82,8 +79,6 @@ brew "transmission-cli"
 brew "tree"
 # Vi 'workalike' with many additional features
 brew "vim"
-# Create screenshots of webpages from the terminal
-brew "webkit2png"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
