@@ -1,3 +1,3 @@
-alias start-node=". ~/.dotfiles/node/nvm.sh"
+alias start-node=". ~/.dotfiles/shell/aliases/nvm.sh"
 alias pn=pnpm
 
