@@ -1,4 +1,5 @@
 tap "buo/cask-upgrade"
+tap "supabase/tap"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Official Amazon AWS command-line interface
@@ -81,6 +82,8 @@ brew "vim"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Supabase CLI
+brew "supabase/tap/supabase"
 # Photo storage and sharing service
 cask "amazon-photos"
 # App to build and share containerised applications and microservices
@@ -115,6 +118,7 @@ cask "xquartz"
 cask "zoom"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-playwright.playwright"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.python"
